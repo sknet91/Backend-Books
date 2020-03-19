@@ -6,8 +6,11 @@ Backend for books aplication
 Rutas del backend estable:
 
 .get
+
 /user - Obtener todos los usuarios
+
 /user/:userId - Obtener la información de un usuario específico
+
 /books - Obtener todos los libros.
 /books/:bookId - Obtener un libro específico.
 /books/:userId - Obtener los libros por un usuario especifico
