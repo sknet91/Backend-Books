@@ -11,7 +11,7 @@ Rutas del backend estable:
 
 
 
-.get
+## .get
 
 
 /user - Obtener todos los usuarios
@@ -29,7 +29,7 @@ Rutas del backend estable:
 
 
 
-.post
+## .post
 
 
 /user - Crear un usuario (Campos obligatorios: { user_email: string, password: string })
@@ -49,7 +49,7 @@ O, si lo desean, mandan solamente la Id del usuario y todos los campos obligator
 
 
 
-.put
+## .put
 
 /user/:userId - Actualizar la info de un usuario
 
@@ -58,7 +58,7 @@ O, si lo desean, mandan solamente la Id del usuario y todos los campos obligator
 
 
 
-.delete
+## .delete
 
 /user/:userId - Borrar un usuario específico
 
