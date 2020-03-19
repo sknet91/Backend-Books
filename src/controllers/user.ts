@@ -5,8 +5,7 @@ import { IUser, IBook } from "../types";
 import * as bcrypt from "bcryptjs";
 import * as fs from 'fs';
 import * as path from 'path';
-
-var jwt = require('jsonwebtoken');
+import * as jwt from 'jsonwebtoken';
 
 export const getUsers = async (_: Request, res: Response) => {
   try {
@@ -71,7 +70,7 @@ export const getImg = async (req: Request, res: Response) => {
 
       } else {
         res.json({
-          message: "El imagen que intenta buscar no existe."
+          message: "El aimagen que intenta buscar no existe."
         });
       }
     } catch (error) {
